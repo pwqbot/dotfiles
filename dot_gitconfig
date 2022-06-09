@@ -14,4 +14,11 @@
 		--date=format:'%Y-%m-%d %H:%M:%S'
 	dogs = dog --stat
 	dug = dog --simplify-by-decoration
-
+[diff]
+    tool = vimdiff
+[merge]
+    tool = vimdiff
+[mergetool "vimdiff"]
+    path = nvim
+[mergetool]
+    keepBackup = false
