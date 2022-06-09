@@ -4,7 +4,7 @@ ef2f638dd53ede6f94c6f77b37f6a242e078f23c	not-for-merge	branch 'apply_mappings_fi
 279f1dd3e1945ca982e93b37443274300f1bb788	not-for-merge	branch 'async_3' of https://github.com/nvim-telescope/telescope.nvim
 053c789740323b679818fe3c9c8ba070f1928558	not-for-merge	branch 'center-theme' of https://github.com/nvim-telescope/telescope.nvim
 1b7d1c40eb28801de883e20b237267e0709e7cce	not-for-merge	branch 'command-complete' of https://github.com/nvim-telescope/telescope.nvim
-6528bdebfd721b58c62a23e73265b5358387cbed	not-for-merge	branch 'dev' of https://github.com/nvim-telescope/telescope.nvim
+41517f62a029bff47c665d62c38631f836a8646c	not-for-merge	branch 'dev' of https://github.com/nvim-telescope/telescope.nvim
 575023a95397394a0a219969fc974ec0dcfd9ae5	not-for-merge	branch 'extensions_improvements' of https://github.com/nvim-telescope/telescope.nvim
 75215b21faed36df6459159988bb754feaec5b6f	not-for-merge	branch 'filter_query_text' of https://github.com/nvim-telescope/telescope.nvim
 b349751d313b8077e19bebd694170312e205ead8	not-for-merge	branch 'fix_ci' of https://github.com/nvim-telescope/telescope.nvim

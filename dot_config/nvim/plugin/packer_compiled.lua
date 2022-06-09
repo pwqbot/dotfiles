@@ -281,10 +281,15 @@ _G.packer_plugins = {
     url = "https://github.com/folke/trouble.nvim"
   },
   ["vim-sandwich"] = {
-    config = { "\27LJ\2\2’\4\0\0\2\0\3\0\0056\0\0\0009\0\1\0'\1\2\0B\0\2\1K\0\1\0ò\3                    runtime macros/sandwich/keymap/surround.vim\n\n                    \" Text objects to select \n                    \" the nearest surrounded text automatically\n                    let g:sandwich_no_default_key_mappings = 1\n                    xmap is <Plug>(extobj-sandwich-aubo-i)\n                    xmap as <Plug>(textobj-sandwich-auto-a)\n                    omap is <Plug>(textobj-sandwich-auto-i)\n                    omap as <Plug>(textobj-sandwich-auto-a)\n                \bcmd\bvim\0" },
+    config = { "\27LJ\2\2æ\2\0\0\2\0\3\0\0056\0\0\0009\0\1\0'\1\2\0B\0\2\1K\0\1\0Æ\2                    runtime macros/sandwich/keymap/surround.vim\n\n                    xmap is <Plug>(textobj-sandwich-aubo-i)\n                    xmap as <Plug>(textobj-sandwich-auto-a)\n                    omap is <Plug>(textobj-sandwich-auto-i)\n                    omap as <Plug>(textobj-sandwich-auto-a)\n                \bcmd\bvim\0" },
     loaded = true,
     path = "/home/qwqbot/.config/nvim/pack/packer/start/vim-sandwich",
     url = "https://github.com/machakann/vim-sandwich"
+  },
+  ["vim-tmux-navigator"] = {
+    loaded = true,
+    path = "/home/qwqbot/.config/nvim/pack/packer/start/vim-tmux-navigator",
+    url = "https://github.com/christoomey/vim-tmux-navigator"
   },
   ["which-key.nvim"] = {
     config = { "\27LJ\2\0028\0\0\2\0\2\0\0046\0\0\0'\1\1\0B\0\2\1K\0\1\0\29plugins/config/which-key\frequire\0" },
@@ -359,18 +364,18 @@ time([[Config for telescope.nvim]], false)
 time([[Config for better-escape.nvim]], true)
 try_loadstring("\27LJ\2\2<\0\0\2\0\2\0\0046\0\0\0'\1\1\0B\0\2\1K\0\1\0!plugins/config/better-escape\frequire\0", "config", "better-escape.nvim")
 time([[Config for better-escape.nvim]], false)
--- Config for: nvim-treesitter
-time([[Config for nvim-treesitter]], true)
-try_loadstring("\27LJ\2\0023\0\0\2\0\2\0\0046\0\0\0'\1\1\0B\0\2\1K\0\1\0\24plugins/config/tree\frequire\0", "config", "nvim-treesitter")
-time([[Config for nvim-treesitter]], false)
--- Config for: gitsigns.nvim
-time([[Config for gitsigns.nvim]], true)
-try_loadstring("\27LJ\2\0026\0\0\2\0\2\0\0046\0\0\0'\1\1\0B\0\2\1K\0\1\0\27plugins/config/gitsign\frequire\0", "config", "gitsigns.nvim")
-time([[Config for gitsigns.nvim]], false)
 -- Config for: nvim-tree.lua
 time([[Config for nvim-tree.lua]], true)
 try_loadstring("\27LJ\2\0027\0\0\2\0\2\0\0046\0\0\0'\1\1\0B\0\2\1K\0\1\0\28plugins/config/filetree\frequire\0", "config", "nvim-tree.lua")
 time([[Config for nvim-tree.lua]], false)
+-- Config for: gitsigns.nvim
+time([[Config for gitsigns.nvim]], true)
+try_loadstring("\27LJ\2\0026\0\0\2\0\2\0\0046\0\0\0'\1\1\0B\0\2\1K\0\1\0\27plugins/config/gitsign\frequire\0", "config", "gitsigns.nvim")
+time([[Config for gitsigns.nvim]], false)
+-- Config for: vim-sandwich
+time([[Config for vim-sandwich]], true)
+try_loadstring("\27LJ\2\2æ\2\0\0\2\0\3\0\0056\0\0\0009\0\1\0'\1\2\0B\0\2\1K\0\1\0Æ\2                    runtime macros/sandwich/keymap/surround.vim\n\n                    xmap is <Plug>(textobj-sandwich-aubo-i)\n                    xmap as <Plug>(textobj-sandwich-auto-a)\n                    omap is <Plug>(textobj-sandwich-auto-i)\n                    omap as <Plug>(textobj-sandwich-auto-a)\n                \bcmd\bvim\0", "config", "vim-sandwich")
+time([[Config for vim-sandwich]], false)
 -- Config for: bufferline.nvim
 time([[Config for bufferline.nvim]], true)
 try_loadstring("\27LJ\2\0029\0\0\2\0\2\0\0046\0\0\0'\1\1\0B\0\2\1K\0\1\0\30plugins/config/bufferline\frequire\0", "config", "bufferline.nvim")
@@ -383,10 +388,10 @@ time([[Config for Comment.nvim]], false)
 time([[Config for null-ls.nvim]], true)
 try_loadstring("\27LJ\2\0026\0\0\2\0\2\0\0046\0\0\0'\1\1\0B\0\2\1K\0\1\0\27plugins/config/null-ls\frequire\0", "config", "null-ls.nvim")
 time([[Config for null-ls.nvim]], false)
--- Config for: vim-sandwich
-time([[Config for vim-sandwich]], true)
-try_loadstring("\27LJ\2\2’\4\0\0\2\0\3\0\0056\0\0\0009\0\1\0'\1\2\0B\0\2\1K\0\1\0ò\3                    runtime macros/sandwich/keymap/surround.vim\n\n                    \" Text objects to select \n                    \" the nearest surrounded text automatically\n                    let g:sandwich_no_default_key_mappings = 1\n                    xmap is <Plug>(extobj-sandwich-aubo-i)\n                    xmap as <Plug>(textobj-sandwich-auto-a)\n                    omap is <Plug>(textobj-sandwich-auto-i)\n                    omap as <Plug>(textobj-sandwich-auto-a)\n                \bcmd\bvim\0", "config", "vim-sandwich")
-time([[Config for vim-sandwich]], false)
+-- Config for: nvim-treesitter
+time([[Config for nvim-treesitter]], true)
+try_loadstring("\27LJ\2\0023\0\0\2\0\2\0\0046\0\0\0'\1\1\0B\0\2\1K\0\1\0\24plugins/config/tree\frequire\0", "config", "nvim-treesitter")
+time([[Config for nvim-treesitter]], false)
 if should_profile then save_profiles(0) end
 
 end)
