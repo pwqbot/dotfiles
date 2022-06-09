@@ -1,0 +1,14 @@
+# pack-refs with: peeled fully-peeled sorted 
+d81586e419adeee5007257827852fc030f3476a3 refs/remotes/origin/1217-git-status-for-symlinks
+24b2d2a33a90523c57244b2d2009b76bab15f2e5 refs/remotes/origin/1217-symlink-git-status
+d6cebe0751b0d8004d70030b360910ed6e2f1a6c refs/remotes/origin/1233-pick-window-when-vsplit-open-file-not-work
+42597be72d0e122577fbd35f2fac7c849f46154f refs/remotes/origin/chore/move-renderer-globals
+42597be72d0e122577fbd35f2fac7c849f46154f refs/remotes/origin/chore/move-renderer-globals-2
+42597be72d0e122577fbd35f2fac7c849f46154f refs/remotes/origin/chore/remove-remaining-globals
+b2ba6dea7105d9afabd3af08abd93947b851a90f refs/remotes/origin/feat/add-live-filtering
+01db61e98dce4406b3380ae4aaf76c91e47a940f refs/remotes/origin/feat/add-mark-capabilities
+600f8d818a6fed85a79ec118b586792753a3a758 refs/remotes/origin/feat/expand-all
+84993e9e9fbc1a3bd851a52f13575786ec6f5262 refs/remotes/origin/feat/file-management-menu
+1ded939823efadded03db634db052777bfe045bc refs/remotes/origin/feat/grow-on-draw
+6abc87b1d92fc8223f1e374728ea45c848bfdf6d refs/remotes/origin/master
+540c811cb24fed507445d6e2f2dc4c6dd44788ee refs/tags/nightly

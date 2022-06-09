@@ -1,0 +1,8 @@
+ce643c12f1874207323fa59d50f819748c5bf4cc		branch 'main' of https://github.com/hrsh7th/nvim-cmp
+630f3633b820359296cb7d03d7356666356aa422	not-for-merge	branch 'border-window' of https://github.com/hrsh7th/nvim-cmp
+ffba3d8388079d52d1860a66690142fbcc444c5c	not-for-merge	branch 'buffer' of https://github.com/hrsh7th/nvim-cmp
+61b1beca1b097ee4fd3b0c487f429688ec8afeb7	not-for-merge	branch 'cmd-terminal' of https://github.com/hrsh7th/nvim-cmp
+86467b2012c57e0bc7aa5b0dc3f1ffd28db2e40f	not-for-merge	branch 'separate-view' of https://github.com/hrsh7th/nvim-cmp
+6baa402649cf7e8ec85952963087d97ebb037ab5	not-for-merge	branch 'strict-entry' of https://github.com/hrsh7th/nvim-cmp
+825a45f6f5e29f540d6bb3ddb9a127afea3f529b	not-for-merge	branch 'suggest-mapping-alternative' of https://github.com/hrsh7th/nvim-cmp
+704889c5425978a668bcfe43b4f1474ebc72c818	not-for-merge	branch 'terminal' of https://github.com/hrsh7th/nvim-cmp

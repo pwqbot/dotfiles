@@ -1,0 +1,9 @@
+# pack-refs with: peeled fully-peeled sorted 
+ec2fca2cba7979b1b081f89a630309ba52b5b92d refs/remotes/origin/enhace/tabline_setup
+55a26ce849c88abf1c2cddc3343f216c47bcff39 refs/remotes/origin/enhance/cache_components
+b4e1de614c71c8b6640808e4de5c8a6bf645c2ce refs/remotes/origin/enhance/set_get_hl_util_on_component
+ce7d24c0b78e8ae4f96154c700aefb0702684608 refs/remotes/origin/feat/add_toggle
+ba6d78f9b5d9cdf57e9ebe25d349288a68663c5d refs/remotes/origin/feat/component_priority
+9b16afa2b41537fc73a8391595df2d049e559c2a refs/remotes/origin/feat/native_section_sep
+c12b1673107c181e32ce54f2dc4c76a2a884d7ba refs/remotes/origin/master
+2469ce0268bc919128efb74337e6a8743224e316 refs/remotes/origin/web-docs

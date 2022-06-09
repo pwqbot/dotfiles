@@ -1,0 +1,5 @@
+ed3df8f8e380ebe408760af2c74aa1c3c23d4007		branch 'master' of https://github.com/neovim/nvim-lspconfig
+86b56276678acc16ac83c57db962e257d8ab1342	not-for-merge	branch 'documentation_overhaul' of https://github.com/neovim/nvim-lspconfig
+419d4c7b64140b970c10ee316785bfcf411aed67	not-for-merge	branch 'feat/0_7_goodies' of https://github.com/neovim/nvim-lspconfig
+05a29a9fc5c922965cbecf94fe1803bd5e267c8d	not-for-merge	branch 'feat/tcp-support' of https://github.com/neovim/nvim-lspconfig
+726f9f66c17aa379da5d9e89df5e9f883ed4a5e0	not-for-merge	branch 'mjlbach-patch-1' of https://github.com/neovim/nvim-lspconfig
