@@ -1,0 +1,17 @@
+[user]
+	email = ding00000804@gmail.com
+	name = pwqbot
+[core]
+	editor = nvim
+	pager = less -Xr
+[credential]
+	helper = cache
+[color]
+	ui = true
+[alias]
+	dog = log --graph --abbrev-commit --decorate \
+		--format=format:'%C(bold blue)%h%C(reset) - %C(magenta)%an%C(reset), %C(bold cyan)%ad%C(reset) %C(auto)%d%C(reset)%n''          %C(white)%s%C(reset) '  \
+		--date=format:'%Y-%m-%d %H:%M:%S'
+	dogs = dog --stat
+	dug = dog --simplify-by-decoration
+
