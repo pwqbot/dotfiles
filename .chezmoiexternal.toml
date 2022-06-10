@@ -1,4 +1,4 @@
 ["~/.config/nvim"]
     type = "git-repo"
     url = "https://github.com/pwqbot/nvim.lua.git"
-      refreshPeriod = "24h"
+    refreshPeriod = "24h"
