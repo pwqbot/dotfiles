@@ -1,2 +1,0 @@
-0000000000000000000000000000000000000000 f0dba7df9536ddb0c8f7b6482ede77940d728d23 pwqbot <ding00000804@gmail.com> 1654521988 +0800	clone: from https://github.com/nvim-telescope/telescope-fzf-native.nvim.git
-f0dba7df9536ddb0c8f7b6482ede77940d728d23 6a33ecefa9b3d9ade654f9a7a6396a00c3758ca6 pwqbot <ding00000804@gmail.com> 1654786023 +0800	pull --ff-only --progress --rebase=false: Fast-forward

@@ -1,8 +1,0 @@
-3362b28f917acc37538b1047f187ff1b5645ecdd		branch 'master' of https://github.com/nvim-lualine/lualine.nvim
-ec2fca2cba7979b1b081f89a630309ba52b5b92d	not-for-merge	branch 'enhace/tabline_setup' of https://github.com/nvim-lualine/lualine.nvim
-55a26ce849c88abf1c2cddc3343f216c47bcff39	not-for-merge	branch 'enhance/cache_components' of https://github.com/nvim-lualine/lualine.nvim
-b4e1de614c71c8b6640808e4de5c8a6bf645c2ce	not-for-merge	branch 'enhance/set_get_hl_util_on_component' of https://github.com/nvim-lualine/lualine.nvim
-ce7d24c0b78e8ae4f96154c700aefb0702684608	not-for-merge	branch 'feat/add_toggle' of https://github.com/nvim-lualine/lualine.nvim
-ba6d78f9b5d9cdf57e9ebe25d349288a68663c5d	not-for-merge	branch 'feat/component_priority' of https://github.com/nvim-lualine/lualine.nvim
-9b16afa2b41537fc73a8391595df2d049e559c2a	not-for-merge	branch 'feat/native_section_sep' of https://github.com/nvim-lualine/lualine.nvim
-2469ce0268bc919128efb74337e6a8743224e316	not-for-merge	branch 'web-docs' of https://github.com/nvim-lualine/lualine.nvim

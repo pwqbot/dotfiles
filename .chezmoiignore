@@ -1,0 +1,5 @@
+.config/nvim/plugin
+.config/nvim/plugin/**
+.config/nvim/pack
+.config/nvim/pack/**
+.config/nvim/.luarc.json

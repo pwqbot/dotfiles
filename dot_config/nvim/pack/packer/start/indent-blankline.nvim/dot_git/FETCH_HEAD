@@ -1,6 +1,0 @@
-6177a59552e35dfb69e1493fd68194e673dc3ee2		branch 'master' of https://github.com/lukas-reineke/indent-blankline.nvim
-c7341742f1afa286e889d275eca7186bf690fab6	not-for-merge	branch 'develop' of https://github.com/lukas-reineke/indent-blankline.nvim
-60aceea84ac5bccaaa6a97df1545e193f1de6c84	not-for-merge	branch 'feature/left-shift' of https://github.com/lukas-reineke/indent-blankline.nvim
-7d352535d8835abcbd2efd03714bc0ad90b7532b	not-for-merge	branch 'feature/nc' of https://github.com/lukas-reineke/indent-blankline.nvim
-ae16fad16bfbb6dbda6c52a39c924c580a15ff11	not-for-merge	branch 'feature/use-vim-notify' of https://github.com/lukas-reineke/indent-blankline.nvim
-5d5d2f80ec48e3f5fe7237ec17cd1587f39d3be7	not-for-merge	branch 'version-1' of https://github.com/lukas-reineke/indent-blankline.nvim

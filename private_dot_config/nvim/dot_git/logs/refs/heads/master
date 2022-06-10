@@ -1,0 +1,14 @@
+0000000000000000000000000000000000000000 da65988ba2dc8110b79b8e68dc2669faafe33468 ubuntu <ubuntu@localhost.localdomain> 1654345001 +0800	clone: from git@github.com:pwqbot/nvim.lua.git
+da65988ba2dc8110b79b8e68dc2669faafe33468 ec3ad8fbc38a1e35e88cc8d9f7ea579bc1f025b5 ubuntu <ubuntu@localhost.localdomain> 1654414497 +0800	commit: update
+ec3ad8fbc38a1e35e88cc8d9f7ea579bc1f025b5 8120f02c839582bb0ea56d3b0d68823587c37a8c ubuntu <ubuntu@localhost.localdomain> 1654418552 +0800	commit: update lsp
+8120f02c839582bb0ea56d3b0d68823587c37a8c 97807be0a57f630088833fc9905b475e66c18b54 ubuntu <ubuntu@localhost.localdomain> 1654523824 +0800	pull origin master: Fast-forward
+97807be0a57f630088833fc9905b475e66c18b54 133c1d9af864e3dd20ddd8f82b5d647a353829de ubuntu <ubuntu@localhost.localdomain> 1654525217 +0800	commit: improve telescope preview
+133c1d9af864e3dd20ddd8f82b5d647a353829de 4650edc16785cfed8bfe57fdaf031e1d2ba39174 ubuntu <ubuntu@localhost.localdomain> 1654567126 +0800	commit: update
+4650edc16785cfed8bfe57fdaf031e1d2ba39174 981e93a740c4c369d27281c87e911f1d363b531a ubuntu <ubuntu@localhost.localdomain> 1654572237 +0800	commit: update
+981e93a740c4c369d27281c87e911f1d363b531a 47400106e50c39cb00cd672f39017e280067e0b5 ubuntu <ubuntu@localhost.localdomain> 1654588353 +0800	pull: Fast-forward
+47400106e50c39cb00cd672f39017e280067e0b5 19c7629aae3abc73c2e69b8ca88a7ac5320a16c3 ubuntu <ubuntu@localhost.localdomain> 1654593584 +0800	commit: update autopairs
+19c7629aae3abc73c2e69b8ca88a7ac5320a16c3 3b851349b70c584cf4b73bf0b029621cb97d7386 ubuntu <ubuntu@localhost.localdomain> 1654756918 +0800	pull origin master: Fast-forward
+3b851349b70c584cf4b73bf0b029621cb97d7386 9b5a419e0af79e89cf7f4aaa1fdb932d1520dd76 ubuntu <ubuntu@localhost.localdomain> 1654759345 +0800	commit: support python venv
+9b5a419e0af79e89cf7f4aaa1fdb932d1520dd76 9657f063e94175441f18c92e7b7de2989e11e760 ubuntu <ubuntu@localhost.localdomain> 1654764149 +0800	commit: update READEME
+9657f063e94175441f18c92e7b7de2989e11e760 4876c73f4e4e70f8407d9b98d4210f8c54c89417 ubuntu <ubuntu@localhost.localdomain> 1654764416 +0800	pull origin master: Fast-forward
+4876c73f4e4e70f8407d9b98d4210f8c54c89417 99538b11e62e1044497b783b27744f9ac2bb27e5 ubuntu <ubuntu@localhost.localdomain> 1654764555 +0800	commit: update README

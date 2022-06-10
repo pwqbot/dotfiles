@@ -1,6 +1,0 @@
-# pack-refs with: peeled fully-peeled sorted 
-96469ed7d4465690a4c8af56ba06f624ccac5632 refs/remotes/origin/feat/register
-b37efa583fe7edbf347a25ff5ce07514c9316c88 refs/remotes/origin/main
-bfff8c6bb8c65dcd37d2439db92714339d4fbd9c refs/remotes/origin/style/frostfox
-03bd7b8a1cc0d94801f05057c62aa79ad39e5972 refs/tags/v1.0.0
-^d83145614e8082b24a001643f1c6c00c0ea9aaef

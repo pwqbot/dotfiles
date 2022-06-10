@@ -1,5 +1,0 @@
-# pack-refs with: peeled fully-peeled sorted 
-2bb6bb87af7250555eede642ea691164a7bcea7c refs/remotes/origin/demo/new-setup
-aae1c3869f1c0a1a0f0e41fb066f8eb90481336b refs/remotes/origin/demo/old-setup
-338063ab0d678103f09a0ce86ce9b292a12ca17f refs/remotes/origin/main
-21fd0a30e2f42933d90738c6fb3edb7dded03ad3 refs/remotes/origin/refactor/grammarly-package
