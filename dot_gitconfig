@@ -25,7 +25,7 @@
     br = branch --format='%(HEAD) %(color:yellow)%(refname:short)%(color:reset) - %(contents:subject) %(color:green)(%(committerdate:relative)) [%(authorname)]' \
         --sort=-committerdate
     res = reset --hard
-    up = git commit -am "update"
+    up = commit -am '(git up)lazy update'
 [diff]
     tool = vimdiff
 [merge]
