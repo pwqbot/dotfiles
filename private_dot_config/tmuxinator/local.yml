@@ -55,7 +55,6 @@ windows:
           - chezmoi cd
           - chezmoi update
           - chezmoi diff
-          - chezmoi status
   - github:
     root: ~/github
   - status:

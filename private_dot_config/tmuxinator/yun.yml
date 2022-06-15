@@ -59,7 +59,6 @@ windows:
             - chezmoi cd
             - chezmoi update
             - chezmoi diff
-            - chezmoi status
   - status:
       layout: tiled
       panes:
