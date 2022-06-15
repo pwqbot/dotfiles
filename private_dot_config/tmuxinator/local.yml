@@ -53,10 +53,13 @@ windows:
           - nvim
         - pane2:
           - chezmoi cd
+          - chezmoi update
+          - chezmoi diff
           - chezmoi status
   - github:
-      root: ~/github
+    root: ~/github
   - status:
       layout: tiled
       panes:
         - htop
+        - netstat
