@@ -14,6 +14,18 @@
 		--date=format:'%Y-%m-%d %H:%M:%S'
 	dogs = dog --stat
 	dug = dog --simplify-by-decoration
+    cm = commit -m
+    st = status
+    sb = status -bs
+    ck = checkout
+    wt = worktree
+    wta = worktree add
+    wtr = worktree remove
+    bd = branch -D
+    br = branch --format='%(HEAD) %(color:yellow)%(refname:short)%(color:reset) - %(contents:subject) %(color:green)(%(committerdate:relative)) [%(authorname)]' \
+        --sort=-committerdate
+    res = reset --hard
+    up = git commit -am "update"
 [diff]
     tool = vimdiff
 [merge]
