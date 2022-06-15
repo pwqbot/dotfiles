@@ -22,6 +22,7 @@
     wts = worktree list
     wta = worktree add
     wtr = worktree remove
+    done = !git worktree remove $1 && git branch -D $1
     bd = branch -D
     br = branch --format='%(HEAD) %(color:yellow)%(refname:short)%(color:reset) - %(contents:subject) %(color:green)(%(committerdate:relative)) [%(authorname)]' \
         --sort=-committerdate
