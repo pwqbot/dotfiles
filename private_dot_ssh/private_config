@@ -1,0 +1,7 @@
+# ProxyCommand bash -c '/usr/bin/ncat --proxy ${host_ip}:10809 --proxy-type http %h %p'
+Host *
+    ServerAliveInterval 60
+
+Host yun
+    HostName 150.158.130.253
+    User ubuntu
