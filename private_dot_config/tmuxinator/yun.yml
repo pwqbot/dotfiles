@@ -14,7 +14,7 @@ root: ~/
 # on_project_start: command
 
 # Run on project start, the first time
-# on_project_first_start: command
+on_project_first_start: ssh yun
 
 # Run on project start, after the first time
 # on_project_restart: command
@@ -26,7 +26,7 @@ root: ~/
 # on_project_stop: command
 
 # Runs in each window and pane before window/pane specific commands. Useful for setting up interpreter versions.
-pre_window: ssh yun
+# pre_window: ssh yun
 
 # Pass command line options to tmux. Useful for specifying a different tmux.conf.
 # tmux_options: -f ~/.tmux.mac.conf
@@ -44,21 +44,26 @@ pre_window: ssh yun
 # attach: false
 
 windows:
-  - editor:
+  - server: 
+      root: ~/github
+      - ls
+  - dotfiles:
       layout: main-vertical
       # Synchronize all panes of this window, can be enabled before or after the pane commands run.
       # 'before' represents legacy functionality and will be deprecated in a future release, in favour of 'after'
       # synchronize: after
       panes:
         - pane1:
-            - cd ~/.config/nvim 
+            - cd ~/.config/nvim
         - pane2:
             - chezmoi cd
-            
-  - server: ls
+            - chezmoi update
+            - chezmoi diff
+            - chezmoi status
   - status:
       layout: tiled
       panes:
         - top:
           - htop
-        - htop
+        - net:
+          - netstat

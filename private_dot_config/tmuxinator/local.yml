@@ -45,7 +45,7 @@ startup_window: neovim
 # attach: false
 
 windows:
-  - neovim:
+  - dotfiles:
       layout: even-horizontal
       panes:
         - pane1:
@@ -61,5 +61,7 @@ windows:
   - status:
       layout: tiled
       panes:
-        - htop
-        - netstat
+        - top:
+          - htop
+        - net:
+          - netstat
