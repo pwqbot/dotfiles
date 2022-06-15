@@ -19,6 +19,7 @@
     sb = status -bs
     ck = checkout
     wt = worktree
+    wts = worktree list
     wta = worktree add
     wtr = worktree remove
     bd = branch -D
