@@ -36,7 +36,7 @@ root: ~/
 # tmux_command: byobu
 
 # Specifies (by name or index) which window will be selected on project startup. If not set, the first window is used.
-startup_window: neovim
+# startup_window: neovim
 
 # Specifies (by index) which pane of the specified window will be selected on project startup. If not set, the first pane is used.
 # startup_pane: 1
@@ -45,22 +45,17 @@ startup_window: neovim
 # attach: false
 
 windows:
+  - status: glances
   - dotfiles:
       layout: even-horizontal
       panes:
-        - pane1:
-          - cd ~/.config/nvim
-          - nvim
         - pane2:
-          - chezmoi cd
-          - chezmoi update
-          - chezmoi diff
+            - chezmoi cd
+            - chezmoi update
+            - chezmoi diff
+        - pane1:
+            - cd ~/.config/nvim
+            - nvim
   - github:
-    root: ~/github
-  - status:
-      layout: tiled
-      panes:
-        - top:
-          - htop
-        - net:
-          - netstat
+      - cd ~/github
+      - ls -hl
