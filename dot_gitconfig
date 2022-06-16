@@ -14,7 +14,7 @@
 		--date=format:'%Y-%m-%d %H:%M:%S'
 	dogs = dog --stat
 	dug = dog --simplify-by-decoration
-    cm = commit -m
+    cm = commit
     st = status
     sb = status -bs
     ck = checkout
