@@ -12,7 +12,9 @@
 	dog = log --graph --abbrev-commit --decorate \
 		--format=format:'%C(bold blue)%h%C(reset) - %C(magenta)%an%C(reset), %C(bold cyan)%ad%C(reset) %C(auto)%d%C(reset)%n''          %C(white)%s%C(reset) '  \
 		--date=format:'%Y-%m-%d %H:%M:%S'
+    dag = dog --all
 	dogs = dog --stat
+    dasg = dogs --all
 	dug = dog --simplify-by-decoration
     cm = commit
     st = status
@@ -36,3 +38,5 @@
     path = nvim
 [mergetool]
     keepBackup = false
+[http]
+	proxy = http://172.21.96.1:10809
