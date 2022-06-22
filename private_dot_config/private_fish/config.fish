@@ -2,6 +2,7 @@ if status is-interactive
     # Commands to run in interactive sessions can go here
 end
 eval (/home/linuxbrew/.linuxbrew/bin/brew shellenv)
+alias g "git"
 alias mux "tmuxinator"
 alias cmo "chezmoi"
 alias gst "git st"
@@ -9,6 +10,8 @@ alias gcm "git commit"
 alias gp "git push"
 alias gdog "git dog"
 alias gdag "git dag"
+alias ga "git add"
+alias gal "git add -A"
 alias gsb "git sb"
 alias gck "git checkout"
 alias gbr "git br"
