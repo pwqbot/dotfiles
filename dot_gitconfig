@@ -13,23 +13,41 @@
 		--format=format:'%C(bold blue)%h%C(reset) - %C(magenta)%an%C(reset), %C(bold cyan)%ad%C(reset) %C(auto)%d%C(reset)%n''          %C(white)%s%C(reset) '  \
 		--date=format:'%Y-%m-%d %H:%M:%S'
     dag = dog --all
-	dogs = dog --stat
+    dogs = dog --stat
     dasg = dogs --all
-	dug = dog --simplify-by-decoration
-    cm = commit
+    dug = dog --simplify-by-decoration
+    
     st = status
     sb = status -bs
-    ck = checkout
+    df = diff
+    
+    cm = commit -v
+    ex = commit --amend --no-edit
+    up = commit -am
+    
     wt = worktree
     wts = worktree list
     wta = worktree add
     wtr = worktree remove
     done = !git worktree remove $1 && git branch -D $1
+    
+    ck = checkout
+    br = branch
+    bn = checkout -b
     bd = branch -D
-    br = branch --format='%(HEAD) %(color:yellow)%(refname:short)%(color:reset) - %(contents:subject) %(color:green)(%(committerdate:relative)) [%(authorname)]' \
+    bs = branch --format='%(HEAD) %(color:yellow)%(refname:short)%(color:reset) - %(contents:subject) %(color:green)(%(committerdate:relative)) [%(authorname)]' \
         --sort=-committerdate
-    res = reset --hard
-    up = commit -am '(git up)lazy update'
+        
+    rs = reset
+    rsh = reset --hard
+    
+    rb = rebase
+    rbi = rebase -i
+    
+    pu = push
+    fuck = push --force
+    pl = pull
+    fe = fetch
 [diff]
     tool = vimdiff
 [merge]
@@ -38,5 +56,3 @@
     path = nvim
 [mergetool]
     keepBackup = false
-[http]
-	proxy = http://172.21.96.1:10809
