@@ -7,8 +7,11 @@ Language: Cpp
 Standard: c++20
 AlignOperands: true 
 AllowShortLambdasOnASingleLine: None
+AllowShortFunctionsOnASingleLine: None
 AlignTrailingComments: true
 AlignConsecutiveMacros: AcrossEmptyLinesAndComments
 AlignConsecutiveDeclarations: Consecutive
 AlignConsecutiveAssignments: Consecutive
 EmptyLineBeforeAccessModifier: Always
+AlwaysBreakTemplateDeclarations: Yes
+SpaceAfterTemplateKeyword: true
