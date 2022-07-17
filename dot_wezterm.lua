@@ -29,7 +29,7 @@ local keymaps = {
 
 return {
     font = wezterm.font("JetBrains Mono"),
-    font_size = 13,
+    font_size = 15.5,
     keys = keymaps,
     enable_tab_bar = false;
 }
